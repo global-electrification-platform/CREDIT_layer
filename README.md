@@ -19,11 +19,11 @@ The second step on the process requires that both - poverty and GDP - maps are r
 
 The poverty map is classified using the equal interval method. The GDP map using natural breaks mentod. The classification method can have an impact on the final product layer. Please make sure you understand the differences between the methods and select the one that suits best in your case. The output map gives a “suitability” index that varies from 1-5; 1 suggesting low demand target and 5 suggesting high demand target.  
 
-![AHP_result](https://github.com/global-electrification-platform/CREDIT_layer/tmp/AHP_result.png)
+![AHP_result](https://github.com/global-electrification-platform/CREDIT_layer/blob/master/tmp/AHP_result.png)
 
 In order to translate this into an electricity demand target, we use 1-D linear interpolation, using min/max demand values. These, are based on MTF adapted to reflect the situation in each country (different household size  per country). That is, the lowest and highest values for e.g. Malawi were set at 8.8 and 680.2 kWh/capita/year for Malawi. We have chosen this approach as it provide consistency between the modelled countries.
 
-![Sample_result](https://github.com/global-electrification-platform/CREDIT_layer/tmp/Sample_result.png)
+![Sample_result](https://github.com/global-electrification-platform/CREDIT_layer/blob/master/tmp/Sample_result.png)
 
 ---
 
